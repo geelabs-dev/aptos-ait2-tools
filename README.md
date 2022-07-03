@@ -1,12 +1,35 @@
 # aptos-ait2-tools
- aptos testnet-2 tools for install AIT2 node
+ Aptos testnet-2 install tool for  AIT2 node 
+
 
 ## WARNING
 This program is only tested on the Ubuntu 20.04.
+- System must be `ubuntu 20.04`
+- User must be `root`
+
+
+## Hardware
+- CPU : 4 cores
+- Memory : 8 G
+- Storage : 300 G
+- Network : 10M/s (public fixed IP)
+
 
 ## Usage
-* Run `./run.sh` to start the tool.
+1. Download tool :
+```bash
+$ git clone https://github.com/geelabs-dev/aptos-ait2-tools.git
+```
+2. Change the directory to tool dir
+```bash
+$ cd aptos-ait2-tools
+```
+3. Run the tool to install AIT-2 node
+```bash
+$ ./run.sh
+```
 
+## Community
 
 Powered by Gee.Labs - 极数实验室 
 
