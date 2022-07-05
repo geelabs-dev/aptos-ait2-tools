@@ -26,6 +26,7 @@ $ cd aptos-ait2-tools
 ```
 3. Run the tool to install AIT-2 node
 ```bash
+$ chmod +x run.sh core/aptos core/docker-compose
 $ ./run.sh
 ```
 
